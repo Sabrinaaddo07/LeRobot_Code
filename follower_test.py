@@ -3,6 +3,7 @@ from lerobot.robots.so_follower import SO101Follower, SO101FollowerConfig
 import time
 
 # a function to read and print all motor positions
+#GIT CHANGE
 def print_motor_positions():
     positions = robot.bus.sync_read(
         "Present_Position",
